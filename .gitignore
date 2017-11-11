@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+vs/vs/~AutoRecover.vs.vcxproj
+vs/vs/x64/*
+vs/x64/*
+vs/.vs/*
