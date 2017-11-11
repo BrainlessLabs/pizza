@@ -18,6 +18,136 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\sqlite3.c" />
+    <ClCompile Include="..\..\src\vs.cpp" />
+    <ClCompile Include="..\..\third_party\spdlog\fmt\bundled\ostream.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\third_party\fmt\format.hpp" />
+    <ClInclude Include="..\..\third_party\fmt\format_impl.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack.h" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\cpp_config.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\cpp_config_decl.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\fbuffer.h" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\fbuffer.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\fbuffer_decl.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\gcc_atomic.h" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\gcc_atomic.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\iterator.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\iterator_decl.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\meta.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\meta_decl.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\object.h" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\object.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\object_decl.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\object_fwd.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\object_fwd_decl.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\pack.h" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\pack.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\pack_decl.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\pack_define.h" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\pack_template.h" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\parse_return.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\predef.h" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\preprocessor.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\sbuffer.h" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\sbuffer.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\sbuffer_decl.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\sysdep.h" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\type.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\unpack.h" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\unpack.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\unpack_decl.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\unpack_define.h" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\unpack_exception.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\unpack_template.h" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\util.h" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\version.h" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\version.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\versioning.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\version_master.h" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\vrefbuffer.h" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\vrefbuffer.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\vrefbuffer_decl.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\zbuffer.h" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\zbuffer.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\zbuffer_decl.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\zone.h" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\zone.hpp" />
+    <ClInclude Include="..\..\third_party\msgpack\msgpack\zone_decl.hpp" />
+    <ClInclude Include="..\..\third_party\rapidjson\allocators.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\document.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\encodedstream.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\encodings.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\error\en.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\error\error.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\filereadstream.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\filewritestream.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\fwd.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\internal\biginteger.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\internal\diyfp.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\internal\dtoa.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\internal\ieee754.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\internal\itoa.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\internal\meta.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\internal\pow10.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\internal\regex.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\internal\stack.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\internal\strfunc.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\internal\strtod.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\internal\swap.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\istreamwrapper.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\memorybuffer.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\memorystream.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\ostreamwrapper.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\pointer.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\prettywriter.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\rapidjson.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\reader.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\schema.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\stream.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\stringbuffer.h" />
+    <ClInclude Include="..\..\third_party\rapidjson\writer.h" />
+    <ClInclude Include="..\..\third_party\spdlog\async_logger.h" />
+    <ClInclude Include="..\..\third_party\spdlog\common.h" />
+    <ClInclude Include="..\..\third_party\spdlog\details\async_logger_impl.h" />
+    <ClInclude Include="..\..\third_party\spdlog\details\async_log_helper.h" />
+    <ClInclude Include="..\..\third_party\spdlog\details\file_helper.h" />
+    <ClInclude Include="..\..\third_party\spdlog\details\logger_impl.h" />
+    <ClInclude Include="..\..\third_party\spdlog\details\log_msg.h" />
+    <ClInclude Include="..\..\third_party\spdlog\details\mpmc_bounded_q.h" />
+    <ClInclude Include="..\..\third_party\spdlog\details\null_mutex.h" />
+    <ClInclude Include="..\..\third_party\spdlog\details\os.h" />
+    <ClInclude Include="..\..\third_party\spdlog\details\pattern_formatter_impl.h" />
+    <ClInclude Include="..\..\third_party\spdlog\details\registry.h" />
+    <ClInclude Include="..\..\third_party\spdlog\details\spdlog_impl.h" />
+    <ClInclude Include="..\..\third_party\spdlog\fmt\bundled\ostream.h" />
+    <ClInclude Include="..\..\third_party\spdlog\fmt\bundled\printf.h" />
+    <ClInclude Include="..\..\third_party\spdlog\fmt\fmt.h" />
+    <ClInclude Include="..\..\third_party\spdlog\fmt\ostr.h" />
+    <ClInclude Include="..\..\third_party\spdlog\formatter.h" />
+    <ClInclude Include="..\..\third_party\spdlog\logger.h" />
+    <ClInclude Include="..\..\third_party\spdlog\sinks\android_sink.h" />
+    <ClInclude Include="..\..\third_party\spdlog\sinks\ansicolor_sink.h" />
+    <ClInclude Include="..\..\third_party\spdlog\sinks\base_sink.h" />
+    <ClInclude Include="..\..\third_party\spdlog\sinks\dist_sink.h" />
+    <ClInclude Include="..\..\third_party\spdlog\sinks\file_sinks.h" />
+    <ClInclude Include="..\..\third_party\spdlog\sinks\msvc_sink.h" />
+    <ClInclude Include="..\..\third_party\spdlog\sinks\null_sink.h" />
+    <ClInclude Include="..\..\third_party\spdlog\sinks\ostream_sink.h" />
+    <ClInclude Include="..\..\third_party\spdlog\sinks\sink.h" />
+    <ClInclude Include="..\..\third_party\spdlog\sinks\stdout_sinks.h" />
+    <ClInclude Include="..\..\third_party\spdlog\sinks\syslog_sink.h" />
+    <ClInclude Include="..\..\third_party\spdlog\sinks\wincolor_sink.h" />
+    <ClInclude Include="..\..\third_party\spdlog\spdlog.h" />
+    <ClInclude Include="..\..\third_party\spdlog\tweakme.h" />
+    <ClInclude Include="..\..\third_party\sqlite\sqlite3.h" />
+    <ClInclude Include="..\..\third_party\sqlite\sqlite3ext.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{ED5B201C-7152-412F-9838-C7DCDCA7C380}</ProjectGuid>
@@ -144,9 +274,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="vs.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
